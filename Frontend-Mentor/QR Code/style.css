@@ -15,6 +15,9 @@ div {
     text-align: center;
     margin-top: 6%;
     border-radius: 5%;
+    /*
+    Não consegui alinhar verticalmente a div pelas configurações display, tive que ir no olhômetro mesmo kkkkkkk (mas isso tá errado)
+    */
 }
 
 img {
@@ -27,4 +30,20 @@ img {
 h1 {
     font-size: 20px;
     color: hsl(218, 44%, 22%);
+    margin-top: -5px;
+    font-weight: 700;
 }
+
+p {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px; 
+    font-weight: 400;
+    padding-bottom: 10%;
+/*
+Diminuir o tamanho do texto <p> mas sem mecher no font-size. Não consegui com o padding, entao  como seria???
+*/
+}
+
+/*
+Adicionar alguma animação/interação no QR code, pro usuário não ficar vendo uma tela fixa e parada. A <div> toda podia ficar se mechendo por ex. (exemplo!!). Deixar a página responsiva.
+*/
